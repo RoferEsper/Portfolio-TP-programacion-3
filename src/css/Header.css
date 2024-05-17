@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: blueviolet;
+    background-color: rgb(38, 39, 69);
     height: 80px;
 }
 
@@ -12,3 +12,4 @@ header {
    align-items: center;
     
 }
+
