@@ -1,0 +1,14 @@
+.linea{
+    width: 100%;
+}
+
+header{
+    background-color: blueviolet;
+    height: 80px;
+}
+
+header {
+    display: flex;
+   align-items: center;
+    
+}
