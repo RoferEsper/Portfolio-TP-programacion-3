@@ -2,7 +2,7 @@
     width: 100%;
 }
 *{
-    color: aliceblue;
+    color: rgb(229, 236, 243);
 }
 header{
    display: flex;
@@ -11,11 +11,12 @@ header{
     height: 80px;
 }
 
-header h1{
-    display: flex;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
+
+.datosHeader{
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
 }
 
 
