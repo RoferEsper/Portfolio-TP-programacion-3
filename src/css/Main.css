@@ -82,7 +82,7 @@
   height: 200px;
   border-radius: 20px;
   padding: 5px;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+ 
   background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
 }
 
@@ -91,4 +91,20 @@
     margin-bottom: 30px;
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.card1 a img {
+  width: 100%;
+  height:200px;
+  border-radius: 30px;
+}
+.card2 a img {
+  width: 100%;
+  height:200px;
+  border-radius: 30px;
+}
+.card3 a img {
+  width: 100%;
+  height:200px;
+  border-radius: 30px;
 }

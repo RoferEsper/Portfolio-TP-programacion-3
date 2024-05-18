@@ -9,6 +9,9 @@ import css from "../assets/css.svg";
 import html5 from "../assets/html5.svg";
 import mongodb from "../assets/mongodb.svg";
 import sqlserver from "../assets/sql-server.svg";
+import proyectopeli from '../assets/proyectopeli.jpg'
+import proyectofarma from '../assets/proyectofarma.jpg'
+import proyectoPortfolio from '../assets/proyectoPortfolio.jpg'
 
 const Main = () => {
   const datosPersonales = {
@@ -27,7 +30,7 @@ const Main = () => {
           <h3>
             {datosPersonales.nombre} {datosPersonales.apellido}
           </h3>
-          <h3>Tengo {datosPersonales.edad} años</h3>
+          <h3>Edad {datosPersonales.edad} años</h3>
           <h3>Mi hooby favorito es el {datosPersonales.hobby}</h3>
           <h3>Actualmente soy {datosPersonales.actividad}</h3>
         </div>
@@ -69,13 +72,15 @@ const Main = () => {
       <h3 className="tituloProyecto">Mis proyectos</h3>
       <div className="carrusel">
         <div className="card1">
-          <div className="card__content"></div>
+        <a href="https://github.com/RoferEsper/ProyectoWebPeliculas" target="_blank" ><img  src={proyectopeli}   /></a>
+          
         </div>
         <div className="card2">
-        <div className="card__content"></div>
+        <a href="https://github.com/RoferEsper/ProyectoHotelConWindowsFroms" target="_blank"><img  src={proyectofarma}   /></a>
         </div>
         <div className="card3">
-        <div className="card__content"></div>
+        <a href="https://github.com/RoferEsper/Portfolio-TP-programacion-3" target="_blank" ><img  src={proyectoPortfolio}   /></a>
+        
         </div>
       </div>
     </div>
