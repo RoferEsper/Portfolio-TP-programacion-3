@@ -1,16 +1,39 @@
 .contenedor{
     margin-top: 80px;
     display: flex;
-    background-color: blueviolet;
+   
    justify-content: space-between;
 
 }
 .datosPersonales{
     width: 45%;
-    background-color: rgb(60, 182, 201);
+
+    text-align: center;
 }
 .contenedorSkills{
-    background-color: bisque;
+    
     width: 40%;
     height: 700px;
+}
+
+.skills1{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.skillsflex{
+    display: flex;
+}
+
+.skills2{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.contenedorSkills h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
 }

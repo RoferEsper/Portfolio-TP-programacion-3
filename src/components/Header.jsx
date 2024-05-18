@@ -1,6 +1,6 @@
 import '../css/Header.css'
-import logo2 from '../images/logo2.png'
-import icono from '../images/icono.svg'
+import logo2 from '../assets/logo2.png'
+import icono from '../assets/icono.svg'
 const Header = () => {
   return (
     <div>
