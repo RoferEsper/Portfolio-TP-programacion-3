@@ -1,0 +1,16 @@
+.contenedor{
+    margin-top: 80px;
+    display: flex;
+    background-color: blueviolet;
+   justify-content: space-between;
+
+}
+.datosPersonales{
+    width: 45%;
+    background-color: rgb(60, 182, 201);
+}
+.contenedorSkills{
+    background-color: bisque;
+    width: 40%;
+    height: 700px;
+}

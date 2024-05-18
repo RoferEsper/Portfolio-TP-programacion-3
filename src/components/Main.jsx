@@ -1,11 +1,19 @@
-
-
+import "../css/Main.css";
+import persona from '../images/persona.png'
 const Main = () => {
   return (
-    <div>
-      <p>el main tendra mi informacion personal, y un carrusel con mis certificados</p>
+    <div className="contenedor">
+      <div className="datosPersonales">
+        <img src={persona} width={420} />
+        <h2>Nombre y apellido + datos personales</h2>
+      </div>
+      <div className="contenedorSkills">
+          <div className="skills">
+            
+          </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
