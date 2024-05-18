@@ -53,10 +53,10 @@ const Main = () => {
             <br />
           </div>
             <div className="skills2">
-              <img src={mongodb} width={200} />
+              <img src={mongodb} width={150} />
               <br />
               <br />
-              <img src={sqlserver} width={100} />
+              <img src={sqlserver} width={80} />
               <br />
               <br />
               <img src={html5} width={80} />

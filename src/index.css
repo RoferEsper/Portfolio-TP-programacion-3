@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 
 #space, .stars {
@@ -10,9 +11,12 @@
   bottom: 0;
   left: 0;
   right: 0;
+ 
 }
 
+
 .stars {
+ 
   background-image: 
     radial-gradient(1px 1px at 20px 30px, #eee, rgba(0,0,0,0)),
     radial-gradient(1px 1px at 40px 70px, #fff, rgba(0,0,0,0)),
@@ -22,11 +26,12 @@
     radial-gradient(1px 1px at 160px 120px, #ddd, rgba(0,0,0,0));
   background-repeat: repeat;
   background-size: 200px 200px;
+  
 }
 
 html {
 height:100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 100%, #090a0f 100%);
 }
 
 ::-webkit-scrollbar {
