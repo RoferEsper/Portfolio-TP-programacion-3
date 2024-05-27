@@ -1,10 +1,21 @@
-
+import "../css/Footer.css"
 
 const Footer = () => {
   return (
     <div>
       <hr />
-       <p>el footer contendra contacto y redireccion a mis redes</p>
+    <div className="ContenedorFooter">
+       <div className="ContenedorRedes">
+          <div className="redes"></div>
+          <div className="redes"></div>
+          <div className="redes"></div>
+          <div className="redes"></div>
+       </div>
+    </div>
+    <hr />
+    <div className="derechos">
+      <h5>Derechos Reservados Esper Rodrigo</h5>
+    </div>
     </div>
   )
 }
