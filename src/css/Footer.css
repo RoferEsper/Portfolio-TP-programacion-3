@@ -6,7 +6,18 @@
     height: 300px;
     border-radius: 80px;
 }
+.redes{
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
 
+.redes a{
+    text-decoration: none;
+}
 .ContenedorFooter{
     margin-top: 30px;
     display: flex;
